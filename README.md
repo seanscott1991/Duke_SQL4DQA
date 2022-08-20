@@ -5,7 +5,7 @@ Welcome to SQL for Data Querying and Analysis!  This is a crash course on all th
 
 ### Course Structure
 
-SQL for Data Querying and Analysis is a 5 week course.  Each week will consist of a lecture session (Tuesday) and a lab session (Thursday).  Lectures will be a mixture of slides and demos.  Labs will be fully interactive and consist of SQL practice problems that you will complete and submit during class time.  In addition to lectures and labs the course will consist of 1 take home mid term assignment and one take home final assignment.
+SQL for Data Querying and Analysis is a 5 week course.  Each week will consist of a lecture session (Tuesday) and a lab session (Thursday).  Lectures will be a mixture of slides and demos.  Labs will be fully interactive and consist of SQL practice problems that you will complete and submit during class time.  In addition to lectures and labs the course will consist of one take home mid term assignment and one take home final assignment.
 
 ### Grading
 
