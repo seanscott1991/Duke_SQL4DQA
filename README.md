@@ -16,7 +16,7 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 
  ### Topic Overview by week
 
-** Week 1 **
+**Week 1**
 * MySQL Workbench
 * Why should you learn SQL?
 * What is SQL?
