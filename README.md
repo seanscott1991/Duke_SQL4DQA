@@ -3,7 +3,7 @@
 Welcome to SQL for Data Querying and Analysis!  This is a crash course on all things SQL (Structured Querying Language) to help you ace that technical interview and feel more comfortable querying relational databases.  The course will cover a range of SQL concepts and have a strong focus on labs and hands-on implementation of learnings.  Topics discussed in the course will include fundamental SQL concepts, aggregate functions, relational database concepts, working with multiple data sets, and advanced SQL concepts.
 
 
-Course Structure
+## Course Structure
 
 SQL for Data Querying and Analysis is a 5 week course.  Each week will consist of a lecture session (Tuesday) and a lab session (Thursday).  Lectures will be a mixture of slides and demos.  Labs will be fully interactive and consist of SQL practice problems that you will complete and submit during class time.  In addition to lectures and labs the course will consist of 1 take home mid term assignment and one take home final assignment.
 
