@@ -16,44 +16,44 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 
  ### Topic Overview by week
 
-Week 1
-MySQL WOrkbench
-Why should you learn SQL?
-What is SQL?
-What are relational databases?
-Query anotomy
-Select clause
-From clause
-Where clause
-Group by clause
-Having clause
-Order by clause
+**Week 1
+* MySQL WOrkbench
+* Why should you learn SQL?
+* What is SQL?
+* What are relational databases?
+* Query anotomy
+* Select clause
+* From clause
+* Where clause
+* Group by clause
+* Having clause
+* Order by clause
 
-Week 2
-Relational database concepts
-Joins
-Inner Joins
-Left/Right Joins
-Full Joins
-Joining more than two tables
-Sets and set operators
+**Week 2
+* Relational database concepts
+* Joins
+* Inner Joins
+* Left/Right Joins
+* Full Joins
+* Joining more than two tables
+* Sets and set operators
 
-Week 3
-Sub queries
-Simple case expressions
-Searched case expressions
-Result set transformations with case
-Checking for existence with case
-Additional case expression uses
+**Week 3
+* Sub queries
+* Simple case expressions
+* Searched case expressions
+* Result set transformations with case
+* Checking for existence with case
+* Additional case expression uses
 
-Week 4
-Analytic Functions
-Window Functions
-Localized sorting
-Ranking functions
-Window frame functions
-Lag and lead
+**Week 4
+* Analytic Functions
+* Window Functions
+* Localized sorting
+* Ranking functions
+* Window frame functions
+* Lag and lead
 
-Week 5
-Common Table Expressions
-Trouble Shooting Techniques
+**Week 5 
+* Common Table Expressions
+* Trouble Shooting Techniques
