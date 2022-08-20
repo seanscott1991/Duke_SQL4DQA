@@ -16,8 +16,8 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 
  ### Topic Overview by week
 
-**Week 1
-* MySQL WOrkbench
+** Week 1
+* MySQL Workbench
 * Why should you learn SQL?
 * What is SQL?
 * What are relational databases?
@@ -29,7 +29,7 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 * Having clause
 * Order by clause
 
-**Week 2
+** Week 2
 * Relational database concepts
 * Joins
 * Inner Joins
@@ -38,7 +38,7 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 * Joining more than two tables
 * Sets and set operators
 
-**Week 3
+** Week 3
 * Sub queries
 * Simple case expressions
 * Searched case expressions
@@ -46,7 +46,7 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 * Checking for existence with case
 * Additional case expression uses
 
-**Week 4
+** Week 4
 * Analytic Functions
 * Window Functions
 * Localized sorting
@@ -54,6 +54,6 @@ This is a pass pass/fail course.  Grade breakdown is as follows:
 * Window frame functions
 * Lag and lead
 
-**Week 5 
+** Week 5 
 * Common Table Expressions
 * Trouble Shooting Techniques
