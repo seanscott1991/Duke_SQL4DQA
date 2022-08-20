@@ -9,7 +9,7 @@ SQL for Data Querying and Analysis is a 5 week course.  Each week will consist o
 
 ### Grading
 
-This is a pass pass/fail course.  Grade breakdown is as follows:
+This is a pass/fail course.  Grade breakdown is as follows:
 * Labs (33% of grade)
 * Mid Term Assignment (33% of grade)
 * Final Assignment (33% of grade)
