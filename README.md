@@ -57,3 +57,4 @@ This is a pass/fail course.  Grade breakdown is as follows:
 **Week 5** 
 * Common Table Expressions
 * Trouble Shooting Techniques
+* Database Management
