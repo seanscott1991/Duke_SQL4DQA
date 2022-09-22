@@ -11,7 +11,7 @@ SELECT
 	charge_no
     , charge_dt
     , charge_amt
-	, ROW_NUMBER() OVER (ORDER BY charge_amt DESC) AS ROW_NUM_RANK
+	, ROW_NUMBER() OVER () AS ROW_NUM_RANK
     , RANK() OVER (ORDER BY charge_amt DESC) AS RANK_RANK
     , DENSE_RANK() OVER (ORDER BY charge_amt DESC) DENSE_RANK_RANK
 	, PERCENT_RANK() OVER (ORDER BY charge_amt DESC) PCT_RANK_RANK
@@ -92,7 +92,7 @@ ORDER BY
     
     
     
--- 3. Return the month and member number of the member that had the most charges in that month.  If there was a tie return both members return both --
+-- 3. Return the month and member number of the member that had the most charges in that month.  If there was a tie return both members --
 WITH T1 AS
 	(
 	SELECT
@@ -300,6 +300,7 @@ SELECT
     , DATE(charge_dt) AS CHARGE_DATE
     , SUM(charge_amt) AS DAILY_CHARGES
     , AVG(SUM(charge_amt)) OVER (ORDER BY DATE(charge_dt) ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS ROLLING_3DAY_AVG
+    , AVG(SUM(charge_amt)) OVER (ORDER BY DATE(charge_dt) ROWS  1 PRECEDING ) AS ROLLING_3DAY_AVG
 FROM
 	charge
 WHERE
@@ -414,8 +415,32 @@ FROM
 	table1
 GROUP BY
 	1, 2;
-   
     
+    
+    
+    
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- --  Demo Set 4.6  -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+-- 1. Use the loan table from the financial database.  For all  loans in december create a column that shows running total of --
+-- loan amount with an empty windowing clause.  Then add an identical additional column that does have a windowing clause that -- 
+-- creates a window of all loans before and including the current loan. Create the same two columns but for running average of --
+-- loan amount --
+   
+SELECT 
+	date
+    , amount
+    , SUM(amount) OVER (ORDER BY DATE) AS RUNNING_TOTAL
+	, SUM(amount) OVER (ORDER BY DATE ROWS UNBOUNDED PRECEDING) AS RUNNING_TOTAL_UNBOUNDED
+    , AVG(amount) OVER (ORDER BY DATE) AS RUNNING_AVG
+	, AVG(amount) OVER (ORDER BY DATE ROWS UNBOUNDED PRECEDING) AS RUNNING_AVG_UNBOUNDED
+FROM 
+	loan
+WHERE 
+	MONTH(DATE) = 12
+GROUP BY 
+	1, 2;    
     
      
 
