@@ -21,7 +21,7 @@ This is a pass/fail course.  Grade breakdown is as follows:
 * Why should you learn SQL?
 * What is SQL?
 * What are relational databases?
-* Query anotomy
+* Query anatomy
 * Select clause
 * From clause
 * Where clause
